@@ -1,0 +1,1894 @@
+/* Webフォントの指定 */
+@font-face {
+  font-family: "GenShin Gothic Bold";
+  src: url("../fonts/GenShinGothic-Bold.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "GenShin Gothic Medium";
+  src: url("../fonts/GenShinGothic-Medium.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Hannari Mincho";
+  src: url("../fonts/HannariMincho-Regular.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Noto Sans JP";
+  src: url("../fonts/NotoSansJP-Medium.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Philosopher Italic";
+  src: url("../fonts/Philosopher-Italic.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Philosopher Regular";
+  src: url("../fonts/Philosopher-Regular.woff") format("woff");
+  font-weight: normal;
+}
+
+.GenShin-gothic-bold {
+  font-family: GenShin Gothic Bold;
+}
+
+.GenShin-gothic-medium {
+  font-family: GenShin Gothic Medium;
+}
+
+.hannari {
+  font-family: Hannari Mincho;
+}
+
+.noto-sans-jp {
+  font-family: Noto Sans JP;
+}
+
+.Philosopher-i {
+  font-family: Philosopher Italic;
+}
+
+.Philosopher-R {
+  font-family: Philosopher Regular;
+}
+
+/*----- 共通のコード -----*/
+body {
+  color: #212529;
+}
+
+.telop h1, .bio p:last-child, .insta-inner h2, .ribbon h2, .camp-right h3, .button, .hair-inner h2, .caused-shampoo h2, .title, .subtitle, .usage h2, .question-box h2 
+{
+  font-family: Hannari Mincho;
+}
+
+.time, .telop p, .insta-title + p, .insta-text p, .cam-img + p, .camp-right h3 + p, .button + p, .button + p + p, .hair-inner ul li, .hair-inner p, .hair-trouble p, .caused-shampoo p, .connoisseur p, .Usage-text p, .question-box a, .question-box p, footer a
+{
+  font-family: Noto Sans JP;
+}
+
+.Usage-text h3 {
+  font-family: Philosopher Italic;
+}
+
+.question-box span {
+  font-family: Philosopher Regular;
+}
+
+.form h2, .form_label, .form_label span, option, label {
+  font-family: GenShin Gothic Medium;
+}
+
+.border {
+  width: 858px;
+  margin: 0 auto;
+  height: 20px;
+  background: #b391a2;
+}
+
+.animate__animated {
+    opacity: 0;
+}
+
+
+/*----- 白髪染めで傷んだ髪が変わる。 -----*/
+.main {
+  width: 100%;
+  height: 66.6vw;
+  background-image: url(../images/header_bg.jpg);
+  background-size: cover;
+  padding-top: 4.8vw;
+}
+
+.telop {
+  margin-left: 51.6%;
+}
+
+.main h1 {
+  width: 46.708vw;
+  font-size: 5.124vw;
+  color: #63977e;
+  line-height: 5.857vw;
+  letter-spacing: 0.6vw;
+  font-weight: normal;
+  padding-bottom: 1.903vw;
+}
+.telop p {
+  font-size: 2.05vw;
+  line-height: 2.635vw;
+  letter-spacing: 2.2px;
+  color: #212529;
+  padding-bottom: 2.343vw;
+}
+
+.bio {
+  margin-left: 51.6%;
+}
+
+.bio img {
+  width: 28.4vw;
+  height: 27vw;
+  margin-left: 7.467vw;
+  margin-bottom: 0.512vw;
+}
+
+.bio p {
+  font-size: 3.294vw;
+  letter-spacing: 0.19vw;
+  line-height: 4.758vw;
+  font-weight: normal;
+}
+
+.font {
+  font-family: Philosopher Regular, Noto Sans JP;
+}
+
+.bio span {
+  font-size: 2.489vw;
+  letter-spacing: 0.073vw;
+}
+
+.bio .underline {
+  display: inline-block;
+  line-height: 3.367vw;
+  background: linear-gradient(transparent 82%, #b391a2 82%);
+}
+
+.bio p:last-child {
+  display: inline-block;
+  line-height: 3.734vw;
+  padding-bottom: 0.952vw;
+  background: linear-gradient(transparent 83%, #b391a2 83%);
+}
+
+/* --- instagram --- */
+.insta-inner {
+  width: 1009px;
+  padding: 80px 0;
+  margin: 0 auto;
+}
+
+.insta-inner h2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 95px;
+  font-weight: normal;
+  font-family: Hannari Mincho;
+  margin-bottom: 9px;
+}
+
+.insta-title img {
+  height: 106px;
+  margin-left: 43px;
+}
+
+.insta-title span {
+  height: 106px;
+  line-height: 90px;
+}
+
+.insta-title + p {
+  text-align: center;
+  font-size: 34px;
+  letter-spacing: 0.3px;
+  margin-bottom: 23px;
+}
+
+.insta-contents {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 55px;
+}
+
+.contents-cover {
+  width: 170px;
+  border: 1px solid #000;
+}
+
+.insta-img {
+  width: 168px;
+  height: 168px;
+  background-image: url(../images/insta_thumbnail.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.insta-text {
+  background-color: #fff;
+  padding: 18px 7px 65px;
+}
+
+.insta-text h3 {
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+  margin-bottom: 4px;
+}
+
+.insta-text h3 img {
+  margin-top: 1px;
+  margin-right: 8px;
+}
+
+.insta-text h3 span {
+  font-size: 16px;
+}
+
+.insta-text p {
+  line-height: 22.1px;
+  padding-left: 2px;
+  padding-bottom: 13px;
+}
+
+.time {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+/*----- 初回限定キャンペーン実施中 (共通) -----*/
+.campaign {
+  padding: 80px 0 74px;
+  background: linear-gradient(#edf6f1, #e9fbf6);
+}
+
+.ribbon {
+  text-align: center;
+  width: 898px;
+  height: 92px;
+  background-image: url(../images/cv_ribbon_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.ribbon h2 {
+  font-size: 58px;
+  color: #fff;
+  line-height: 64px;
+  font-weight: normal;
+}
+
+.campagram-inner {
+  display: flex;
+  padding-top: 80px;
+}
+
+.campagram-inner > div {
+  display: flex;
+  width: 997px;
+  margin: 0 auto;
+}
+
+.cam-img {
+  width: 360px;
+  height: 356px;
+  background-image: url(../images/cv_sample.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 37px;
+  opacity: 0;
+}
+
+.cam-img + p {
+  font-size: 28px;
+  padding-left: 12px;
+  letter-spacing: 2px;
+}
+
+.camp-right h3 {
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 40px;
+  padding-left: 20px;
+}
+
+.camp-right h3 + p {
+  font-size: 28px;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+hr {
+  width: 610px;
+  margin: 27px 0;
+  margin-left: 20px;
+}
+
+.regular-course {
+  display: flex;
+  padding-top: 8px;
+  padding-left: 20px;
+  margin-bottom: 41px;
+}
+
+.regular-course span {
+  font-size: 28px;
+}
+
+.regular-course p:first-child {
+  font-family: Philosopher Regular, Noto Sans JP;
+}
+
+.regular-course p:first-child span:first-child {
+  text-decoration: line-through 1px;
+  transform: translatey(-2px);
+}
+
+.regular-course > p span {
+  display: block;
+  line-height: 36px;
+  letter-spacing: 2px;
+}
+
+.regular-course > p span + span {
+  padding-top: 5px;
+  padding-left: 2px;
+  letter-spacing: 4px;
+}
+
+.regular-course p:first-child + p {
+  display: flex;
+}
+
+.regular-course .fs {
+  font-size: 92px;
+  color: #ff0000;
+  font-family: Philosopher Regular;
+  padding-top: 16px;
+  padding-left: 6px;
+}
+ 
+.regular-course .fs + span {
+  width: 28px;
+  padding-top: 38px;
+  color: #ff0000;
+}
+
+.regular-course .fs + span + span {
+  letter-spacing: 2px;
+  padding-top: 37px;
+}
+
+.button {
+  display: inline-block;
+  background: linear-gradient(#afc8bb, #91b3a2);
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.button a {
+  display: inline-block;
+  font-size: 52px;
+  color: #fff;
+  line-height: 55px;
+  letter-spacing: 5px;
+  text-decoration: none;
+  padding: 17px 129px 24px 140px;
+}
+
+.button + p {
+  padding-left: 20px;
+  padding-top: 8px;
+}
+
+.button + p span {
+  display: inline-block;
+  font-size: 42px;
+  letter-spacing: 3px;
+  color: #bc0000;
+  padding-bottom: 3px;
+  background: linear-gradient(transparent 85%, #b391a2 85%);
+}
+
+.button + p + p {
+  padding-left: 20px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+/* 自分の髪に満足していますか？ */
+.hair {
+  width: 100%;
+  background-color: #f0f0f0;
+  background-image: url(../images/empathy_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.hair-inner {
+  padding: 64px 0px 81px;
+  text-align: center;
+}
+
+.hair-inner h2 {
+  display: inline-block;
+  font-size: 63px;
+  font-weight: normal;
+  color: #63977e;
+}
+
+ul {
+  padding: 112px 0px 0px;
+  text-align: left;
+  width: 987px;
+  margin: 0 auto;
+}
+
+.hair-inner ul li {
+  list-style: none;
+  padding-left: 0px;
+  padding-bottom: 59px;
+}
+
+.hair-inner ul li::before {
+  content: url("");
+  display: inline-block;
+  width: 28px;
+  height: 26px;
+  background-image: url(../images/empathy_check.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 30px;
+}
+
+.hair-inner ul li p {
+  display: inline-block;
+  font-size: 27px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  padding-left: 31px;
+}
+
+.hair-inner p {
+  font-size: 14px;
+}
+
+.hair-inner ul + p {
+  font-size: 29px;
+  line-height: 24px;
+  text-align: left;
+  width: 987px;
+  margin: 0px auto;
+}
+
+.hair-inner span {
+  display: inline-block;
+  width: 6.5px;
+  height: 6.5px;
+  background: #212529;
+  border-radius: 50%;
+  margin: 8px 8px 8px 14.5px;
+}
+
+/* これらの原因はシャンプーにありました */
+/* 共通 */
+.shampoo-con {
+  display: flex;
+  padding-top: 80px;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.caused-shampoo h2 {
+  font-size: 51px;
+  font-weight: normal;
+  color: #63977e;
+  letter-spacing: -1.6px;
+  line-height: 54.7px;
+  padding-left: 3px;
+}
+.caused-shampoo p {
+  font-size: 28px;
+}
+
+.shampoo-text {
+  padding: 0 6px;
+}
+.shampoo-text p {
+  line-height: 39px;
+  padding-bottom: 39px;
+}
+.shampoo-text p:first-child {
+  line-height: 27px;
+  padding-bottom: 45px;
+}
+
+.caused-shampoo .border {
+  width: 889px;
+  margin: 0;
+  height: 14px;
+}
+
+/* 共通（ ここまで ） */
+
+.cause {
+  position: relative;
+  padding: 72px 0 133px 0;
+  background: linear-gradient(#e0f9f2, #b5dfcc)
+}
+
+.cause-inner, .solution-inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.solution {
+  padding: 130px 0 76px 0;
+  background: linear-gradient( #ffffff, #f2f1ee);
+}
+
+.cause::after {
+  display: inline-block;
+  content: "だから";
+  color: #fff;
+  font-size: 55px;
+  line-height: 59px;
+  padding-left: 80px;
+  font-family: Hannari Mincho;
+  width: 326px;
+  height: 115px;
+  background-image: url(../images/exhibit_arrow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 91.1%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.solution .border {
+  width: 739.33px;
+}
+
+.solution .shampoo-text {
+  padding: 15px 0px 0px 26px;
+}
+
+.solution .shampoo-text p:first-child {
+  line-height: 39px;
+  padding-bottom: 38px;
+}
+
+.point-l {
+    padding-left: 4px;
+}
+
+/* プレミアムbioシャンプーのこだわりポイント */
+
+.discerning-point {
+  background: linear-gradient(#fff, #fefefe);
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  line-height: 78.8px;
+}
+
+.title {
+  font-size: 63px;
+  font-weight: normal;
+  color: #63977e;
+  padding: 66px 0 80px;
+}
+
+.connoisseur {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 69px;
+  width: 1004px;
+  margin: 0 auto;
+}
+
+.connoisseur:nth-of-type(2n) {
+  padding-bottom: 73px;
+}
+
+.bio-imgs {
+  width: 43.2271%;
+}
+
+.bio-imgs-l img, .bio-imgs-r img {
+  width: 100%;
+}
+
+.bio-imgs p {
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0.22px;
+  line-height: 26px;
+}
+
+.p-style p {
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.bio-description {
+  width: 55%;
+}
+
+.reverse .bio-description {
+  width: 54%;
+}
+
+.bio-description p {
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.subtitle {
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 34px;
+  letter-spacing: 1.5px;
+}
+
+.subheading {
+  width: max-content;
+  border-bottom: 15px solid #b391a2;
+  padding-bottom: 10px;
+}
+
+.bio-description hr {
+  width: 101.8%;
+  margin: 20px 0 9px;
+}
+
+.bio-imgs .pl {
+  padding-left: 0;
+  letter-spacing: -0.5px;
+}
+
+.p-style .pl {
+  line-height: 35px;
+  letter-spacing: 0.15px;
+  transform: translateY(-3px);
+}
+
+.connoisseur:nth-of-type(3) {
+  padding-bottom: 72px;
+}
+
+.connoisseur:nth-of-type(3) p {
+  padding-left: 5px;
+}
+
+.connoisseur:last-child {
+  padding-bottom: 77px;
+}
+
+/* プレミアムbioシャンプーの使い方 */
+.usage {
+  background: linear-gradient(#fff, #e5fbf5);
+  padding: 67px 0 40px 0;
+}
+
+.usage-img1 {
+  background-image: url(../images/use_step1.jpg);
+}
+.usage-img2 {
+  background-image: url(../images/use_step2.jpg);
+}
+.usage-img3 {
+  background-image: url(../images/use_step3.jpg);
+}
+.usage-img4 {
+  background-image: url(../images/use_step4.jpg);
+}
+.usage-img5 {
+  background-image: url(../images/use_step5.jpg);
+}
+.usage-img {
+  width: 509px;
+  height: 255px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.usage h2 {
+  text-align: center;
+  font-size: 63px;
+  font-weight: normal;
+  color: #63977e;
+}
+
+.Usage-inner {
+  width: 1020px;
+  padding: 94px 0 0;
+  margin: 0 auto;
+}
+
+.Usage-cover {
+  display: flex;
+}
+
+.Usage-frame {
+  padding-left: 15px;
+}
+
+.Usage-text {
+  padding-left: 15.6px;
+  letter-spacing: 0.2px;
+}
+
+.Usage-text h3 {
+  width: 139px;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 34px;
+  border-bottom: 4px solid #000;
+  padding-bottom: 2.1px;
+  margin-bottom: 30px;
+}
+
+.Usage-text p {
+  font-size: 28px;
+  letter-spacing: 0px;
+}
+
+.Usage-inner hr {
+  margin-top: 38.5px;
+  margin-left: 10px;
+  margin-bottom: 40.5px;
+  width: 98.1%;
+}
+
+/* お客様からのよくあるご質問 */
+
+ .question-box {
+  background-color: #f1f0ed;
+  padding: 66px 0 80px;
+}
+
+.question-box h2 {
+  text-align: center;
+  font-size: 63px;
+  font-weight: normal;
+  color: #63977e;
+  padding-bottom: 23px;
+  margin-bottom: 30px;
+}
+
+.question-covar {
+  width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px solid #212529;
+  padding: 28.5px 0px;
+}
+
+.question span, .answer span {
+  font-size: 54px;
+  padding-right: 38px;
+  padding-left: 4px;
+  letter-spacing: 2px;
+}
+
+.question span {
+  color: #5d8974;
+  padding-right: 29px;
+}
+
+.answer span {
+  color: #9d3e3e;
+  line-height: 37px;
+  float: left;
+  height: 120px;
+}
+
+.question {
+  display: block;
+  color: #212529;
+  line-height: 40px;
+  text-decoration: none;
+  padding-bottom: 30px;
+
+}
+
+.answer {
+  display: block;
+}
+
+.question, .answer p {
+  font-size: 27px;
+}
+
+.answer p {
+  padding-top: 7px;
+}
+
+/* お客様情報のご入力 */
+input::placeholder {
+  font-size: 28px;
+  font-family: GenShin Gothic Medium;
+}
+
+.form {
+  padding-top: 81px;
+}
+
+.form h2 {
+  width: 990px;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 9.99px;
+  background-color: rgb(241, 239, 237);
+  border-radius: 10px;
+  margin: 0px auto 58px;
+  padding: 5px 0;
+}
+
+.form {
+  padding-top: 81px;
+  padding-bottom: 80px;
+}
+
+#contact_form_area {
+  width: 988px;
+  margin: 0 auto 60px;
+  padding: 60px 44px 29px;
+  border: 1px solid #808080;
+  border-radius: 12px;
+}
+
+.form_label {
+  width: 282px;
+  line-height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2px;
+}
+
+.form_column {
+  display: flex;
+  align-items: center;
+  margin-bottom: 29px;
+}
+
+.form_label, .form_label span {
+  font-size: 24px;
+}
+
+.form_label span {
+  font-weight: normal;
+  color: #fff;
+  background-color: red;
+  height: 47px;
+  padding: 0 7px;
+  margin-right: 30px;
+  line-height: 47px;
+  border-radius: 5px;
+}
+
+.form_parts {
+  font-size: 26px;
+  box-sizing: border-box;
+  width: 340px;
+  height: 60px;
+  padding: 0 9px 0;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+}
+
+select[name="address-level1"] {
+  font-size: 26px;
+  font-family: "GenShin Gothic Medium";
+  width: 340px;
+  height: 60px;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  padding-left: 6px;
+  letter-spacing: 2px;
+  appearance: menulist;
+}
+
+.form_column:nth-of-type(2) {
+  margin-bottom: 59px;
+}
+
+.form_column:nth-of-type(5) .form_parts, .form_column:nth-of-type(6) .form_parts, .form_column:nth-of-type(8) .form_parts {
+  width: 617px;
+}
+
+.form_column:nth-of-type(6) {
+  padding-bottom: 30px;
+}
+
+.form_column:nth-of-type(6) span {
+  background-color: #808080;
+}
+
+.form_column:nth-of-type(8) {
+  padding-bottom: 30px;
+}
+
+.form_column:nth-of-type(9) .form_parts {
+  letter-spacing: 0px;
+}
+
+.radio-cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 205px;
+  width: 895px;
+  margin: 0 auto 58px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+input.radio {
+  width: 27px;
+  height: 27px;
+  margin-right: 25px;
+}
+
+#form_submit {
+  text-align: center;
+}
+
+#submit_button {
+  width: 525px;
+  height: 114px;
+  text-align: center;
+  background: linear-gradient(#91b3a2, #31a169);
+}
+
+#submit_button {
+  font-family: GenShin Gothic Bold;
+  color: #fff;
+  letter-spacing: 2.5px;
+  padding-left: 3px;
+  font-size: 56px;
+  width: 525px;
+  height: 114px;
+  text-align: center;
+  background: linear-gradient(rgb(145, 179, 162), rgb(49, 161, 105));
+  border-radius: 10px;
+}
+
+
+
+footer {
+  background-color: #e4fcf5;
+}
+
+footer p {
+  text-align: center;
+  padding: 24px 0px;
+  letter-spacing: 3px;
+  /*margin-right: -14px;*/
+}
+
+footer a {
+  display: inline-block;
+  font-size: 20px;
+  color: rgb(33, 37, 41);
+  text-decoration: none;
+  padding: 0 9px 0 0;
+  letter-spacing: 0px;
+  line-height: 20px;
+  transform: translateX(7px);
+}
+
+footer a:not(footer a:nth-of-type(5)) {
+  border-right: 2px solid #000;
+}
+
+#form_has_error {
+  font-size: 24px;
+  color: orangered;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .main {
+    height: 149.2vw;
+    background-image: url(../images/header_bg_sp.jpg);
+  }
+  
+  .telop {
+    margin-left: 5.4vw;
+    margin-bottom: 70.7vw;
+}
+
+  .main h1 {
+    width: 73.708vw;
+    font-size: 8.533vw;
+    line-height: 10.667vw;
+    letter-spacing: 0;
+    padding-bottom: 2.4vw;
+  }
+
+  .telop p {
+    color: #ffffff;
+    font-size: 4.3vw;
+    letter-spacing: 0.293vw;
+  }
+
+  .bio {
+    display: flex;
+    flex-direction: row-reverse;
+    color: #fff;
+    margin: 0 5.4vw 0 5vw;
+  }
+
+  .bio img {
+    width: 39.4vw;
+    height: 37vw;
+    margin-left: 2.467vw;
+  }
+
+  .telop2 {
+    padding-top: 13.867vw;
+  }
+
+  .bio p {
+    margin-bottom: 1.6vw;
+  }
+
+  .bio span {
+    font-size: 4.267vw;
+  }
+
+  .telop2 p:first-child {
+    padding-left: 0.5vw;
+  }  
+
+  .bio p:last-child {
+    font-size: 6.4vw;
+    letter-spacing: 0px;
+    display: inline;
+    line-height: 6.99vw;
+    background: linear-gradient(transparent 85%, #b391a2 85%);
+    padding-bottom: 0.267vw;  
+  }
+
+  .bio .underline {
+    background: linear-gradient(transparent 80%, #b391a2 80%);
+    padding-bottom: 0.8vw;
+  }
+  /*----- instagram -----*/
+
+  .insta-inner {
+    width: auto;
+    padding: 8vw 0;
+  }
+
+  .insta-inner h2 {
+    font-size: 8vw;
+    height: 8.8vw;
+    margin-bottom: 4vw;
+    justify-content: flex-start;
+  }
+
+  .insta-title img {
+    height: 8.8vw;
+    padding-left: 0px;
+    margin-right: 0.8vw;
+    margin-left: 10.933vw;  
+  }
+
+  .insta-title span {
+    height: auto;
+    line-height: 6.933vw;
+  }
+
+  .insta-title + p {
+    font-size: 3.733vw;
+    margin-bottom: 4.8vw;
+  }
+
+  .insta-contents {
+    margin: 0 5.067vw;
+    overflow-x: scroll;
+  }
+
+  .contents-cover {
+    width: 29.333vw;
+    margin-right: 1vw;
+  }
+
+  .insta-img {
+    width: 28.8vw;
+    height: 28.8vw;
+  }
+
+  .insta-text {
+    padding: 2.4vw 1.067vw 3.467vw;
+  }
+
+  .insta-text h3 {
+    padding-left: 0;
+    margin-bottom: 1.6vw;
+  }
+
+  .insta-text h3 img {
+    width: 5.333vw;
+    margin-right: 1.6vw;
+    margin-left: 0.5vw;
+  }
+
+  .insta-text h3 span {
+    font-size: 3.2vw;
+    padding-bottom: 1vw;
+  }
+
+  .insta-text p {
+    font-size: 3.2vw;
+    line-height: 4vw;
+    padding-bottom: 2.667vw;
+  }
+
+  .time {
+    font-size: 3.2vw;
+    letter-spacing: 0;
+  }
+
+  /*----- キャンペーン -----*/
+
+  .campaign {
+    padding: 8.196vw 0 8vw;
+  }
+  
+  .ribbon {
+    width: 89.524vw;
+    height: 13.807vw;
+    background-image: url(../images/cv_ribbon_bg_sp.png);
+  }  
+
+  .ribbon h2 {
+    font-size: 5.65vw;
+    line-height: 9.709vw;
+    padding-left: 0.073vw;
+  }
+  
+  .camp-left {
+    margin-top: 11.5vw;
+  }
+  
+  .cam-img {
+    width: 35.99vw;
+    height: 35.5vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0.8vw;
+    margin-bottom: 2.1vw;
+  }
+  
+  .campagram-inner {
+    padding-top: 3vw;
+  }
+  
+  .campagram-inner > div {
+    width: 90.667vw;
+  }
+
+  .cam-img + p {
+    font-size: 3.39vw;
+    padding-left: 0.3vw;
+    letter-spacing: 0.065vw;
+  }
+  
+  .camp-right h3 {
+    font-size: 4.54vw;
+    letter-spacing: 0.037vw;
+    padding-left: 0.7vw;
+    line-height: normal;
+  }
+  
+  .camp-right h3 + p {
+    font-size: 3.24vw;
+    letter-spacing: 0.2vw;
+    padding-top: 0;
+    padding-left: 1.6vw;
+  }
+  
+  hr {
+    width: 50vw;
+    margin: 1.34vw 0;
+    margin-left: 2vw;
+  }
+  
+  .regular-course {
+    flex-direction: column;
+    padding-top: 0;
+    padding-left: 0.8vw;
+    margin-bottom: 4.4vw;
+  }
+  
+  .regular-course span {
+    font-size: 4vw;
+  }
+  
+  .regular-course > p span {
+    padding-left: 0.9vw;
+    line-height: 3.6vw;
+    letter-spacing: 0.1vw;
+  }
+
+  .regular-course > p span + span {
+      padding-top: 1.91vw;
+      padding-left: 1.26vw;
+      letter-spacing: 0.6vw;
+  }
+
+  .regular-course .fs {
+    font-size: 14.5vw;
+    letter-spacing: 0.4vw;
+    padding-top: 6vw;
+    padding-left: 4vw;
+  }
+  
+  .regular-course .fs + span {
+    width: 6vw;
+    font-size: 6.5vw;
+    padding-left: 0;
+    padding-top: 8.8vw;
+  }
+  
+  .regular-course .fs + span + span {
+    font-size: 1vw;
+    letter-spacing: 0.23vw;
+    padding-top: 9.79vw;
+    padding-left: 0.2vw;
+  }
+  
+  .button {
+    display: inline-block;
+    border-radius: 2.732vw;
+    margin-left: 1.9vw;
+  }
+  
+  .button a {
+    display: inline-block;
+    font-size: 5.1vw;
+    color: #fff;
+    line-height: 2vw;
+    letter-spacing: 0.6vw;
+    padding: 2.6vw 7.7vw 3.1vw 8vw;
+  }
+  
+  .button a span {
+    padding-left: 1.3vw;
+  }
+  
+  .button + p {
+    padding-top: 1.5vw;
+    padding-left: 2vw;
+  }
+
+  .button + p span {
+    font-size: 4.3vw;
+    letter-spacing: 0.24vw;
+    padding-bottom: 0.1vw;
+  }
+  
+  .button + p + p {
+    font-size: 3.26vw;
+    letter-spacing: 0.17vw;
+    padding-top: 0.4vw;
+    padding-left: 1.9vw;
+  }
+  
+  .regular-course p:first-child span:first-child {
+    transform: translatey(0.2px);
+    letter-spacing: 0.3px;
+  }
+
+  /* 自分の髪に満足していますか？ */
+  .hair {
+    background-image: url(../images/empathy_bg_sp.jpg);
+  }
+
+  .hair-inner {
+    padding: 6.5vw 0 7.2vw;
+  }
+
+  .hair-inner h2 {
+    font-size: 4.8vw;
+  }
+
+  ul {
+    width: 88.9vw;
+    padding: 6.1vw 0 0;
+  }
+
+  .hair-inner ul li {
+    padding-bottom: 2.9vw;
+  }
+
+  .hair-inner ul li::before {
+    width: 3.8vw;
+    height: 3.5vw;
+    line-height: 3vw;
+  }
+  
+  .hair-inner ul li p {
+    font-size: 3.7vw;
+    line-height: 3.866vw;
+    letter-spacing: 0.29vw;
+    padding-left: 2.2vw;
+  }
+  
+  .hair-inner p {
+    font-size: 3.733vw;
+  }
+
+  .hair-inner ul + p {
+    font-size: 3.733vw;
+    line-height: normal;
+    padding-top: 3.2vw;
+    width: 88.9vw;
+  }
+  
+  .hair-inner span {
+    width: 0.8vw;
+    height: 0.8vw;
+    border-radius: 50%;
+    margin: 1.133vw 1.23vw 1.133vw 1.99vw;
+  }
+
+  .border {
+      width: 65.799vw;
+      height: 1vw;
+      margin-top: -1vw;
+  }
+  
+  /* これらの原因はシャンプーにありました */
+  .cause {
+    padding: 6.933vw 0 11.2vw;
+  }
+  
+  .caused-shampoo h2 {
+    text-align: center;
+    font-size: 4.8vw;
+    line-height: 5.333vw;
+    letter-spacing: 0.133vw;
+    padding-left: 0;
+  }
+  
+  .caused-shampoo p {
+      font-size: 3.733vw;
+      padding-bottom: 4.52vw;
+      line-height: 4.52vw;
+      letter-spacing: -0.04vw;
+  }
+
+  .caused-shampoo .border {
+      width: 88.267vw;
+      height: 1.067vw;
+  }
+    
+  .shampoo-con {
+      flex-direction: column;
+      padding-top: 5.333vw;
+  }
+
+  .reverse {
+      flex-direction: column;
+  }
+    
+  .shampoo-con img {
+      width: 89.4vw;
+  }
+
+  .cause-inner, .solution-inner {
+      width: 89.333vw;
+  }
+  
+  .solution {
+    padding: 6.9vw 0 5.7vw;
+  }
+
+  .shampoo-text {
+    padding: 1.6vw 0 0 0;
+  }
+  .shampoo-text p:first-child {
+    padding-bottom: 3.3vw;
+  }
+  
+  .solution .border {
+    width: 74.5vw;
+    margin: 0 auto;
+  }
+  
+  .point-l {
+    padding-left: 0;
+  }
+  
+  .solution .shampoo-text {
+    padding: 3vw 0 0 0;
+  }
+  
+  .solution .shampoo-text p:first-child {
+    letter-spacing: -0.03vw;
+    line-height: 4.5vw;
+    padding-bottom: 4.5vw;
+  }
+
+  .cause::after {
+    font-size: 4.8vw;
+    padding-left: 11.467vw;
+    line-height: 8vw;
+    width: 37.33vw;
+    height: 12.267vw;
+    top: clamp(470px, 123.3vw, 1240px);
+    /* top: 125.3vw; */
+    background: linear-gradient(to top right, transparent 50% , #8b0000 50%) no-repeat top left / 50.2% 100%,    linear-gradient(to top left,transparent 50%, #8b0000 50%) no-repeat bottom right/50.2% 100%;
+  }
+
+   /* プレミアムbioシャンプーのこだわりポイント */
+
+  .connoisseur {
+    flex-direction: column-reverse;
+    padding: 0 0 9.05vw;
+    width: 90.5vw;
+  }
+
+  .title {
+    font-size: 4.8vw;
+    padding: 5.6vw 0 9.33vw;
+  }
+
+  .heading {
+    line-height: 6.6vw;
+  }
+
+  .reverse .bio-description {
+    width: 90vw;
+  }
+
+  .bio-imgs {
+    width: 100%;
+    padding: 2.7vw 0.6vw 0;
+  }
+  
+  .bio-imgs p {
+    text-align: center;
+    font-size: 3.733vw;
+    line-height: 5.5vw;
+  }
+
+  .bio-description {
+    width: 90vw;
+  }
+
+  .subtitle {
+    font-size: 4.8vw;
+    letter-spacing: 0.14vw;
+    line-height: 5vw;
+  }
+
+  .subheading {
+    border-bottom: 1.18vw solid rgb(179, 145, 162);
+    padding-bottom: 0;
+  }
+
+  .bio-description hr {
+    width: 100%;
+    margin: 5.33vw 0 1.6vw;
+  }
+
+  .bio-description p {
+    font-size: 3.73vw;
+    line-height: 4.8vw;
+    padding-left: 0.5vw;
+  }
+
+  .bio-imgs {
+    width: 100%;
+    padding: 2.7vw 0.6vw 0;
+  }
+  
+  .connoisseur:nth-of-type(2n) {
+    padding-bottom: 9.867vw;
+  }
+  
+  .connoisseur:nth-of-type(2n) h3 {
+    padding-left: 0.5vw;
+  }
+  
+  .connoisseur:nth-of-type(2) .bio-description p {
+    width: 87.4vw;
+  }
+  
+  .connoisseur:nth-of-type(3) p {
+    padding-left: 0;
+    letter-spacing: -0.027vw;
+  }
+  
+  .connoisseur:nth-of-type(3) .bio-description p {
+    width: 87.4vw;
+    padding-left: 0.533vw;
+    letter-spacing: 0;
+  }
+  
+  .connoisseur:nth-of-type(3) h3 {
+    padding-left: 0.45vw;
+  }
+  
+  .connoisseur:nth-of-type(3) {
+    padding-bottom: 10.133vw;
+  }
+  
+  .connoisseur br {
+    display: none;
+  }
+  
+  .bio-imgs-l .pl {
+    line-height: 9.333vw;
+    letter-spacing: 0;
+    transform: translateY(-1.8vw);
+  }
+  
+  .connoisseur:last-child {
+    padding-bottom: 5.5vw;
+  }
+
+  .p-style .pl {
+    line-height: 7.467vw;
+    letter-spacing: 0;
+}
+
+  /*プレミアムbioシャンプーの使い方*/
+  
+  .Usage-cover {
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .Usage-inner {
+    width: 100%;
+    padding-top: 19.5vw;
+  }
+  
+  .usage-img {
+    width: 89.33vw;
+    height: 44.8vw;
+  }
+  
+  .Usage-frame {
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .usage h2 {
+    font-size: 4.8vw;
+  }
+  
+  .usage {
+    padding-top: 6vw;
+    padding-bottom: 2.5vw;
+  }
+  
+  .Usage-text h3 {
+    width: fit-content;
+    font-size: 4.267vw;
+    padding: 0;
+    margin: 0;
+    line-height: 3.33vw;
+    border-bottom: 0.267vw solid rgb(0, 0, 0);
+    position: absolute;
+    top: -9vw;
+    left: 5.3vw;
+  }
+  
+  .Usage-text p {
+    font-size: 3.733vw;
+    letter-spacing: -0.01vw;
+    line-height: 4.9vw;
+  }
+
+  .Usage-text p:not(.step4-t) {
+    padding-right: 1vw;
+  }
+  
+  .Usage-text {
+    padding: 1.55vw 0 0;
+    width: 89.5vw;
+    margin: 0 auto;
+  }
+  
+  .Usage-inner hr {
+    margin: 5.2vw auto 19.2vw;
+    width: 89.6vw;
+  }
+
+  .Usage-inner > .Usage-cover:nth-of-type(2) {
+    padding-bottom: 0.5vw;
+  }
+
+  .Usage-inner > .Usage-cover:nth-of-type(3) + hr {
+    margin-top: 4.7vw;
+  }
+
+  .Usage-inner > .Usage-cover:nth-of-type(4) + hr {
+    margin-top: 4.7vw;
+  }
+
+  .Usage-inner > .Usage-cover:nth-of-type(5) + hr {
+    margin-bottom: 5vw;
+  }
+
+  /* お客様からのよくあるご質問 */
+
+  .question {
+    line-height: 3vw;
+    padding-bottom: 2.4vw;
+  }
+
+  .question-box {
+      padding: 6.67vw 0 8vw;
+  }
+
+  .question-box h2 {
+    font-size: 4.8vw;
+    padding-bottom: 0;
+    margin-bottom: 5.4vw;
+  }
+
+  .question, .answer p {
+    font-size: 3.733vw;
+  }
+
+  .question span, .answer span {
+    font-size: 4.8vw;
+    padding-left: 0;
+    letter-spacing: 0;
+  }
+
+  .question-covar {
+    width: 89.33vw;
+    padding: 5.25vw 0;
+  }
+
+  .question span {
+    padding-right: 1.8vw;
+  }
+
+  .answer span {
+    padding-right: 2.8vw;
+    line-height: 6vw;
+    height: 20vw;
+  }
+
+  .answer p {
+    padding-top: 0;
+  }
+
+  .question-covar:nth-of-type(4) {
+    padding: 4.25vw 0 5.5vw;
+  }
+
+  .question-covar:nth-of-type(4) .question span {
+    float: left;
+    padding-right: 2.5vw;
+    margin-bottom: 4vw;
+    line-height: 5.5vw;
+  }
+
+  .question-covar:nth-of-type(4) .question {
+    padding-bottom: 0.5vw;
+    line-height: 5.333vw;
+  }
+
+  .question-covar:nth-of-type(4) .question p {
+    line-height: 5.3vw;
+  }
+  
+  .question-covar:nth-of-type(5) {
+    padding: 5.25vw 0px 5vw;
+  }
+
+
+  /* お客さま情報のご入力 */
+  .form {
+    padding-top: 7.3vw;
+    padding-bottom: 10.667vw;
+  }
+
+  .form h2 {
+    font-size: 4.8vw;
+    letter-spacing: 1.2vw;
+    width: 89.333vw;
+    padding: 0.4vw 0;
+    margin-bottom: 10.667vw;
+  }
+
+  .form_label, .form_label span {
+      font-size: 3.2vw;
+      height: 4.8vw;
+      line-height: 4.8vw;
+  }
+
+  .form_label {
+    padding-left: 0;
+    margin-bottom: 1.067vw;
+    width: auto;
+  }
+
+  .form_label span {
+    padding: 0 0.8vw;
+    border-radius: 0.8vw;
+    margin-right: 0;
+    margin-left: 2.533vw;
+  }
+
+  .form_column {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 2.933vw;
+  }
+
+  .form_parts {
+    width: 83.733vw;
+    height: 6.4vw;
+    font-size: 3.2vw;
+    padding: 0 2.4vw;
+  }
+
+  input::placeholder {
+      font-size: 3.2vw;
+      line-height: 6.4vw;
+  }
+
+  #contact_form_area {
+      width: 89.6vw;
+      padding: 7.733vw 2.4vw 5.067vw;
+      margin-bottom: 10.667vw;
+  }
+
+  .form_column:nth-of-type(2) {
+      margin-bottom: 8vw;
+  }
+
+  select[name="address-level1"] {
+      font-size: 3.2vw;
+      width: 83.733vw;
+      height: 6.4vw;
+      padding: 0 2.333vw;
+      letter-spacing: 0;
+      appearance: none;
+  }
+  
+  .select-wrap {
+    position: relative;
+  }
+  
+  .select-wrap::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-bottom: 1.5px solid rgb(33, 37, 41);
+    border-left: 1.5px solid rgb(33, 37, 41);
+    transform: translateY(-40%) rotate(-45deg);
+    position: absolute;
+    top: 45%;
+    right: 11.8px;
+  }
+
+  .form_column:nth-of-type(4) {
+    margin-bottom: 2.667vw;
+  }
+
+  .form_column:nth-of-type(4) .form_label {
+    margin-bottom: 1vw;
+  }
+
+  .form_column:nth-of-type(5) .form_parts, .form_column:nth-of-type(6) .form_parts, .form_column:nth-of-type(8) .form_parts {
+      width: 83.733vw;
+  }
+
+  .form_column:nth-of-type(6) {
+      padding-bottom: 0;
+      margin-bottom: 8vw;
+  }
+
+  .form_column:nth-of-type(8) {
+      padding-bottom: 0;
+      margin-bottom: 8vw;
+  }
+  
+  .radio-cover {
+    width: 83.733vw;
+    height: 26.667vw;
+    margin-bottom: 3.467vw;
+  }
+
+  .payment h2 {
+    margin-bottom: 8.6vw;
+  }
+
+  label {
+    font-size: 3.2vw;
+  }
+
+  input.radio {
+    width: 4vw;
+    height: 4vw;
+    margin-right: 2.667vw;
+  }
+
+  #submit_button {
+    width: 40vw;
+    height: 8vw;
+    font-size: 4.267vw;
+    letter-spacing: 0.267vw;
+    padding-left: 0;
+  }
+
+  #submit_button span {
+    padding-left: 1.867vw;
+  }
+  
+  #form_has_error {
+    font-size: 14px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 4vw 0 5.333vw;
+  }
+  
+  footer p {
+    width: 85vw;
+    padding: 0;
+    line-height: 4.72vw;
+    letter-spacing: 0;
+    margin-left: -4.8vw;
+  }
+  
+  footer a {
+    font-size: 2.667vw;
+    line-height: 2.667vw;
+    padding: 0 1.067vw 0 0;
+    letter-spacing: 0;
+  }
+
+  footer a:not(footer a:nth-of-type(5)) {
+    border-right: 0.267vw solid rgb(0, 0, 0);
+  }
+
+  footer a:nth-of-type(3) {
+    margin-left: 2.667vw;
+  }
+
+}
