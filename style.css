@@ -1,32 +1,32 @@
 /* Webフォントの指定 */
 @font-face {
   font-family: "GenShin Gothic Bold";
-  src: url("../fonts/GenShinGothic-Bold.woff") format("woff");
+  src: url("fonts/GenShinGothic-Bold.woff") format("woff");
   font-weight: normal;
 }
 @font-face {
   font-family: "GenShin Gothic Medium";
-  src: url("../fonts/GenShinGothic-Medium.woff") format("woff");
+  src: url("fonts/GenShinGothic-Medium.woff") format("woff");
   font-weight: normal;
 }
 @font-face {
   font-family: "Hannari Mincho";
-  src: url("../fonts/HannariMincho-Regular.woff") format("woff");
+  src: url("fonts/HannariMincho-Regular.woff") format("woff");
   font-weight: normal;
 }
 @font-face {
   font-family: "Noto Sans JP";
-  src: url("../fonts/NotoSansJP-Medium.woff") format("woff");
+  src: url("fonts/NotoSansJP-Medium.woff") format("woff");
   font-weight: normal;
 }
 @font-face {
   font-family: "Philosopher Italic";
-  src: url("../fonts/Philosopher-Italic.woff") format("woff");
+  src: url("fonts/Philosopher-Italic.woff") format("woff");
   font-weight: normal;
 }
 @font-face {
   font-family: "Philosopher Regular";
-  src: url("../fonts/Philosopher-Regular.woff") format("woff");
+  src: url("fonts/Philosopher-Regular.woff") format("woff");
   font-weight: normal;
 }
 
