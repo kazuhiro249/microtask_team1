@@ -97,7 +97,7 @@ body {
 .main {
   width: 100%;
   height: 66.6vw;
-  background-image: url(../images/header_bg.jpg);
+  background-image: url(./header_bg.jpg);
   background-size: cover;
   padding-top: 4.8vw;
 }
@@ -210,7 +210,7 @@ body {
 .insta-img {
   width: 168px;
   height: 168px;
-  background-image: url(../images/insta_thumbnail.jpg);
+  background-image: url(./insta_thumbnail.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -259,7 +259,7 @@ body {
   text-align: center;
   width: 898px;
   height: 92px;
-  background-image: url(../images/cv_ribbon_bg.png);
+  background-image: url(./cv_ribbon_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
@@ -286,7 +286,7 @@ body {
 .cam-img {
   width: 360px;
   height: 356px;
-  background-image: url(../images/cv_sample.png);
+  background-image: url(./cv_sample.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 37px;
@@ -415,7 +415,7 @@ hr {
 .hair {
   width: 100%;
   background-color: #f0f0f0;
-  background-image: url(../images/empathy_bg.jpg);
+  background-image: url(./empathy_bg.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -451,7 +451,7 @@ ul {
   display: inline-block;
   width: 28px;
   height: 26px;
-  background-image: url(../images/empathy_check.png);
+  background-image: url(./empathy_check.png);
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 30px;
@@ -555,7 +555,7 @@ ul {
   font-family: Hannari Mincho;
   width: 326px;
   height: 115px;
-  background-image: url(../images/exhibit_arrow.png);
+  background-image: url(./exhibit_arrow.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -695,19 +695,19 @@ ul {
 }
 
 .usage-img1 {
-  background-image: url(../images/use_step1.jpg);
+  background-image: url(./use_step1.jpg);
 }
 .usage-img2 {
-  background-image: url(../images/use_step2.jpg);
+  background-image: url(./use_step2.jpg);
 }
 .usage-img3 {
-  background-image: url(../images/use_step3.jpg);
+  background-image: url(./use_step3.jpg);
 }
 .usage-img4 {
-  background-image: url(../images/use_step4.jpg);
+  background-image: url(./use_step4.jpg);
 }
 .usage-img5 {
-  background-image: url(../images/use_step5.jpg);
+  background-image: url(./use_step5.jpg);
 }
 .usage-img {
   width: 509px;
@@ -1020,7 +1020,7 @@ footer a:not(footer a:nth-of-type(5)) {
 
   .main {
     height: 149.2vw;
-    background-image: url(../images/header_bg_sp.jpg);
+    background-image: url(./header_bg_sp.jpg);
   }
   
   .telop {
@@ -1170,7 +1170,7 @@ footer a:not(footer a:nth-of-type(5)) {
   .ribbon {
     width: 89.524vw;
     height: 13.807vw;
-    background-image: url(../images/cv_ribbon_bg_sp.png);
+    background-image: url(./cv_ribbon_bg_sp.png);
   }  
 
   .ribbon h2 {
@@ -1314,7 +1314,7 @@ footer a:not(footer a:nth-of-type(5)) {
 
   /* 自分の髪に満足していますか？ */
   .hair {
-    background-image: url(../images/empathy_bg_sp.jpg);
+    background-image: url(./empathy_bg_sp.jpg);
   }
 
   .hair-inner {
@@ -1451,7 +1451,7 @@ footer a:not(footer a:nth-of-type(5)) {
     height: 12.267vw;
     top: clamp(470px, 123.3vw, 1240px);
     /* top: 125.3vw; */
-    background: linear-gradient(to top right, transparent 50% , #8b0000 50%) no-repeat top left / 50.2% 100%,    linear-gradient(to top left,transparent 50%, #8b0000 50%) no-repeat bottom right/50.2% 100%;
+    background: linear-gradient(to top right, transparent 50% , #8b0000 50%) no-repeat top left / 50.2% 100%, linear-gradient(to top left,transparent 50%, #8b0000 50%) no-repeat bottom right/50.2% 100%;
   }
 
    /* プレミアムbioシャンプーのこだわりポイント */
